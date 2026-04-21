@@ -1,0 +1,21 @@
+{
+  "name": "recruit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:main": "npx playwright test",
+    "test:mine": "npx playwright test tests/my-own-tasks",
+    "test:headed": "npx playwright test --headed",
+    "test:headed:1": "npx playwright test --headed --workers=1",
+    "test:debug": "npx playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
